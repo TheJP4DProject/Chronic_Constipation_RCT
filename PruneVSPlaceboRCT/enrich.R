@@ -1,4 +1,6 @@
 library(clusterProfiler)
+library(tidyr)
+library(tidyverse)
 mas_all_metadata=as.data.frame(read.csv("tableS7_KO.csv"))
 
 
