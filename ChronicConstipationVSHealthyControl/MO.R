@@ -16,7 +16,6 @@ data=fdata[rownames(meta5137),]
 
 identical(rownames(data),rownames(meta5137))
 data=data[,(colSums(data>0)/nrow(data))>0.025]
-data=data[,-1] #remove unass sp
 pr=NULL
 
 
