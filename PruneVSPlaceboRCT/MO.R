@@ -3,7 +3,7 @@ library(vegan)
 
 meta5137=as.data.frame(read.csv("metadata.csv"))
 meta5137=meta5137[meta5137$Chronic.contipation==1,]
-fdata=as.data.frame(read.csv("MO"))
+fdata=as.data.frame(read.csv("MO.csv"))
 
 
 set.seed(123)
