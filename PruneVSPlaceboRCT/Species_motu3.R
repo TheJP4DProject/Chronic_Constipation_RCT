@@ -129,5 +129,5 @@ pr$Placebo_48w_fdr = p.adjust(pr$Placebo_48w_pval, "fdr")
 pr$Prune_48w_fdr = p.adjust(pr$Prune_48w_pval, "fdr")
 
 
-write.csv(pr,"s3_RCT_motusp.csv")
+write.csv(pr,"tableS3_RCT_motusp.csv")
 
