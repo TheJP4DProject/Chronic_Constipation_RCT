@@ -16,7 +16,7 @@ data=data[,(colSums(data>0)/nrow(data))>0.025]
 
 prune0w=as.data.frame(read.csv("RCT_0wid.csv"))
 prune4w=as.data.frame(read.csv("RCT_4wid.csv"))
-prune8w=as.data.frame(read.csv("RCT_8wid.csv"))))
+prune8w=as.data.frame(read.csv("RCT_8wid.csv"))
 rownames(prune0w)=prune0w$ID
 rownames(prune4w)=prune4w$ID
 rownames(prune8w)=prune8w$ID
