@@ -53,5 +53,5 @@ for (i in diskey){
 }
 
 pr=pr[,c(-3,-5,-7)]
-write.csv(pr,"./1287_motusp_MAA.csv",row.names = F)
+write.csv(pr,"./tableS2_motusp.csv",row.names = F)
 
